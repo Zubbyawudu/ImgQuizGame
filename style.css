@@ -1,7 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://images.unsplash.com/photo-1735598417949-d22e9f8092ea?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+}
+
 .title {
-  border: solid black;
+  border: solid white;
   margin: 1em;
   text-align: center;
+  color: white;
 }
 .animalHolder {
   display: flex;
@@ -28,4 +36,11 @@
 .infobox {
   display: flex;
   justify-content: space-between;
+  color: white;
+}
+.winnerBox {
+  border: solid white;
+  margin: 1em;
+  text-align: center;
+  color: white;
 }

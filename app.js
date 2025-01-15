@@ -2,6 +2,7 @@ let catImg = document.querySelector(".meow");
 let dogImg = document.querySelector(".woof");
 let catScore = 0;
 let dogScore = 0;             
+let winnerBox = document.querySelector(".winnerBox");
 let catPoints = document.querySelector(".c1");
 let dogPoints = document.querySelector(".d1");
 let doghouse = document.querySelector(".dogs");
@@ -51,6 +52,16 @@ const getCat = async () => {
   populateCatToScreen(catString);
 };
 
+// if (catScore ===10 || dogScore === 10) {
+//   if (catScore > dogScore) {
+//     winnerBox.textContent = "The Winner is the Cat";
+//   } else {
+//     winnerBox.textContent = "The Winner is the Dog";
+//   }
+ 
+// }
+  
+  
 const startGame = () => {
   // 1.Load Cat
   getCat();
